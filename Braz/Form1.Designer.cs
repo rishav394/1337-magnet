@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.WebBro1 = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(174, 38);
+            this.button1.Location = new System.Drawing.Point(506, 34);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -46,34 +46,26 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(130, 12);
+            this.textBox1.Location = new System.Drawing.Point(442, 8);
             this.textBox1.MaxLength = 50;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 20);
+            this.textBox1.Size = new System.Drawing.Size(200, 20);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
-            // 
-            // WebBro1
-            // 
-            this.WebBro1.Location = new System.Drawing.Point(12, 67);
-            this.WebBro1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.WebBro1.Name = "WebBro1";
-            this.WebBro1.Size = new System.Drawing.Size(403, 329);
-            this.WebBro1.TabIndex = 2;
             // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(427, 408);
-            this.Controls.Add(this.WebBro1);
+            this.ClientSize = new System.Drawing.Size(1045, 504);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Magnet Link";
@@ -86,7 +78,6 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.WebBrowser WebBro1;
     }
 }
 

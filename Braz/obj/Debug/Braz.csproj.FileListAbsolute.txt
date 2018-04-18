@@ -1,10 +1,10 @@
 C:\Users\Rishav\source\repos\Braz\Braz\bin\Debug\Braz.exe.config
 C:\Users\Rishav\source\repos\Braz\Braz\bin\Debug\Braz.exe
 C:\Users\Rishav\source\repos\Braz\Braz\bin\Debug\Braz.pdb
-C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.csprojResolveAssemblyReference.cache
 C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.Form1.resources
 C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.Properties.Resources.resources
 C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.csproj.GenerateResource.cache
 C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.csproj.CoreCompileInputs.cache
 C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.exe
 C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.pdb
+C:\Users\Rishav\source\repos\Braz\Braz\obj\Debug\Braz.csprojResolveAssemblyReference.cache
